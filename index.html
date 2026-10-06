@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartKids — Навчальний веб-портал для дітей</title>
+
+    <!-- Підключення зовнішньої таблиці стилів -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Внутрішня таблиця стилів -->
+    <style>
+        .hero-banner {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        .hero-banner h1 {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+        }
+
+        .emoji-block {
+            font-size: 1.4rem;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Шапка із абсолютним позиціонуванням (0 відступ зверху) -->
+    <header id="main-header">
+        <div class="logo-container">
+            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='80' height='80'><circle cx='50' cy='50' r='48' fill='%23FF6B6B'/><circle cx='50' cy='50' r='38' fill='%234ECDC4'/><text x='50' y='58' font-family='Arial' font-size='14' font-weight='bold' fill='%23FFFFFF' text-anchor='middle'>SmartKids</text></svg>"
+                alt="Логотип SmartKids" width="50" height="50">
+            <span class="portal-title">SmartKids Tech Start-up</span>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="courses.html">Проєкти</a></li>
+                <li><a href="feedback.html">Зворотний зв'язок</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- Банер -->
+        <section class="hero-banner">
+            <span class="float-badge">Освіта 2026</span>
+            <h1>SmartKids — Дитячий навчальний стартап</h1>
+            <p>Сучасна та інтерактивна платформа для розвитку вашої дитини.</p>
+        </section>
+
+        <!-- Опис мети створення та список завдань -->
+        <article id="about" class="purpose-section">
+            <h2>Про наш Tech start-up</h2>
+
+            <p>
+                <span>Наш веб-портал пропонує <b>інноваційний</b> підхід до освіти: ми <i>навчаємо граючись</i>, роблячи
+                    <em>кожен урок</em> <u>захопливим та ефективним</u> для малюків!</span>
+            </p>
+
+            <h3>Мета створення Tech start-up</h3>
+            <p>
+                Забезпечення гармонійного та інтерактивного розвитку інтелектуальних, творчих і соціальних здібностей
+                дітей дошкільного та молодшого шкільного віку в безпечному ігровому середовищі.
+            </p>
+
+            <!-- Hi-tech емодзі контент після опису мети -->
+            <p class="emoji-block">🤖 💻 🚀 ⚡️ 🔬 📡</p>
+
+            <h3>Завдання для досягнення мети:</h3>
+            <ul>
+                <li>Розробка інтерактивних ігрових вправ з математики, логіки та читання.</li>
+                <li>Створення зацікавленості дітей до самостійного пізнання навколишнього світу.</li>
+                <li>Формування базових цифрових навичок та безпечного користування інтернетом.</li>
+                <li>Надання батькам інструментів для відстеження прогресу дитини.</li>
+            </ul>
+        </article>
+
+        <!-- Методологія та Таблиця засновників -->
+        <article id="topics" class="about-teaching">
+            <h2>Засновники та методологія</h2>
+            <p>Наш портал охоплює ключові напрями розвитку дитини, поєднуючи класичну методологію з цифровими ігровими
+                технологіями.</p>
+
+            <div class="scrollable-text-block">
+                <h3>Методологія гейміфікованого навчання SmartKids</h3>
+                <p>Навчальний процес розроблено таким чином, щоб дитина не стомлювалася під час уроків. Кожна тема
+                    містить анімовану відеопрезентацію, практичний блок ігрових пазлів та підсумковий міні-тест. Система
+                    мотивації нараховує віртуальні бали за досягнення, які малюк може обмінювати на нових персонажів.
+                </p>
+            </div>
+
+            <!-- Блок таблиці про засновників (tabindex="0" додано для зміщення на 2% при :focus) -->
+            <div class="training-table-block" tabindex="0">
+                <table border="1" cellpadding="8" cellspacing="0">
+                    <caption><b>Загальна інформація про засновників SmartKids</b></caption>
+                    <thead>
+                        <tr>
+                            <th rowspan="2">№</th>
+                            <th rowspan="2">ПІБ Засновника</th>
+                            <th rowspan="2">Посада в стартапі</th>
+                            <th colspan="2">Контактні деталі</th>
+                        </tr>
+                        <tr>
+                            <th>Спеціалізація</th>
+                            <th>Досвід</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Олександр Коваленко</td>
+                            <td>CEO / Засновник</td>
+                            <td>EdTech &amp; IT Менеджмент</td>
+                            <td>8 років</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Марія Мельник</td>
+                            <td>Co-Founder / Методист</td>
+                            <td>Дитяча психологія</td>
+                            <td>10 років</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Дмитро Шевченко</td>
+                            <td>CTO / Головний розробник</td>
+                            <td>Full-stack розробка</td>
+                            <td>6 років</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"><b>Загальна кількість засновників:</b> 3 фахівці</td>
+                            <td colspan="2"><b>Статус проєкту:</b> Активна розробка (2026)</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </article>
+
+        <!-- Бокова панель -->
+        <aside class="useful-links">
+            <h3>Корисні зовнішні ресурси</h3>
+            <p>Рекомендовані джерела для батьків та педагогів:</p>
+            <ul>
+                <li><a href="https://mon.gov.ua/" target="_blank" rel="noopener">Міністерство освіти і науки України</a>
+                </li>
+                <li><a href="https://www.unicef.org/ukraine/" target="_blank" rel="noopener">ЮНІСЕФ Україна</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- Контакти з затримкою підсилення шрифту і фону при виділенні/фокусі -->
+    <footer id="contacts" tabindex="0">
+        <h3>Контактна інформація</h3>
+        <p><b>Адреса:</b> м. Київ, вул. Освіти, 10, офіс 402</p>
+        <p><b>Контактні телефони:</b> +38 (044) 123-45-67, +38 (097) 987-65-43</p>
+        <p><a href="feedback.html" class="btn-action">Зв'язатися з нами</a></p>
+        <br>
+        <p>&copy; 2026 Навчальний веб-портал "SmartKids". Всі права захищено.</p>
+    </footer>
+
+</body>
+
+</html>

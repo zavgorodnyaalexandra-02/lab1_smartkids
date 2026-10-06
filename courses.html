@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartKids — Наші курси</title>
+
+    <!-- 1. Підключення зовнішньої таблиці стилів -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 2. Внутрішня таблиця стилів -->
+    <style>
+        /* Внутрішній відступ для body, щоб фіксована шапка не перекривала контент */
+        body {
+            padding-top: 110px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Фіксована шапка (Вимога для сторінки курсів) -->
+    <header id="courses-header">
+        <div class="logo-container">
+            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='80' height='80'><circle cx='50' cy='50' r='48' fill='%23FF6B6B'/><circle cx='50' cy='50' r='38' fill='%234ECDC4'/><text x='50' y='58' font-family='Arial' font-size='14' font-weight='bold' fill='%23FFFFFF' text-anchor='middle'>SmartKids</text></svg>"
+                alt="Логотип SmartKids" width="50" height="50">
+            <h1>SmartKids — Наші курси</h1>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="courses.html">Наші курси</a></li>
+                <li><a href="feedback.html">Зворотний зв'язок</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Список актуальних курсів для дітей</h2>
+
+        <!-- Grid-контейнер для курсів -->
+        <div class="courses-grid">
+
+            <!-- Курс 1 -->
+            <article class="course-card">
+                <div>
+                    <div class="course-image-wrapper">
+                        <img class="course-image"
+                            src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 150' width='200' height='150'><rect width='200' height='150' rx='15' fill='%234A90E2'/><text x='100' y='70' font-family='Arial' font-size='30' font-weight='bold' fill='%23FFFFFF' text-anchor='middle'>1 %2B 2 = 3</text><text x='100' y='110' font-family='Arial' font-size='18' fill='%23FFE66D' text-anchor='middle'>Математика</text></svg>"
+                            alt="Курс Математика">
+                    </div>
+                    <h3 class="course-title">1. Курс «Маленький математик»</h3>
+                    <p><b>Назви уроків:</b></p>
+                    <ul>
+                        <li>Урок 1: Знайомство з цифрами від 1 до 5.</li>
+                        <li>Урок 2: Додавання та віднімання в межах 10.</li>
+                        <li>Урок 3: Порівняння предметів.</li>
+                    </ul>
+                    <p><b>Тип завдань:</b> Інтерактивні математичні пазли.</p>
+                </div>
+                <a href="#math" class="course-link">Детальніше про курс →</a>
+            </article>
+
+            <!-- Курс 2 -->
+            <article class="course-card">
+                <div>
+                    <div class="course-image-wrapper">
+                        <img class="course-image"
+                            src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 150' width='200' height='150'><rect width='200' height='150' rx='15' fill='%2306D6A0'/><text x='100' y='70' font-family='Arial' font-size='32' font-weight='bold' fill='%23FFFFFF' text-anchor='middle'>А Б В</text><text x='100' y='110' font-family='Arial' font-size='18' fill='%23FFFFFF' text-anchor='middle'>Читання</text></svg>"
+                            alt="Курс Читання">
+                    </div>
+                    <h3 class="course-title">2. Курс «Читаємо легко»</h3>
+                    <p><b>Назви уроків:</b></p>
+                    <ul>
+                        <li>Урок 1: Голосні та приголосні звуки.</li>
+                        <li>Урок 2: Складання перших складів.</li>
+                        <li>Урок 3: Читання коротких речень.</li>
+                    </ul>
+                    <p><b>Тип завдань:</b> Аудіо-картки, анімовані вікторини.</p>
+                </div>
+                <a href="#reading" class="course-link">Детальніше про курс →</a>
+            </article>
+
+            <!-- Курс 3 -->
+            <article class="course-card">
+                <div>
+                    <div class="course-image-wrapper">
+                        <img class="course-image"
+                            src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 150' width='200' height='150'><rect width='200' height='150' rx='15' fill='%23FF9F1C'/><text x='100' y='70' font-family='Arial' font-size='32' text-anchor='middle'>🌱 ☀️ 🦁</text><text x='100' y='110' font-family='Arial' font-size='18' font-weight='bold' fill='%23FFFFFF' text-anchor='middle'>Природознавство</text></svg>"
+                            alt="Курс Природознавство">
+                    </div>
+                    <h3 class="course-title">3. Курс «Юний дослідник»</h3>
+                    <p><b>Назви уроків:</b></p>
+                    <ul>
+                        <li>Урок 1: Тварини нашої планети.</li>
+                        <li>Урок 2: Пори року та види погоди.</li>
+                        <li>Урок 3: Рослини та їх догляд.</li>
+                    </ul>
+                    <p><b>Тип завдань:</b> Відео-екскурсії, тести.</p>
+                </div>
+                <a href="#science" class="course-link">Детальніше про курс →</a>
+            </article>
+
+        </div>
+
+        <br>
+        <a href="index.html" class="btn-back">&larr; Перейти на Головну сторінку</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SmartKids Educational Portal</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="80" height="80">
+  <circle cx="50" cy="50" r="48" fill="#FF6B6B"/>
+  <circle cx="50" cy="50" r="38" fill="#4ECDC4"/>
+  <polygon points="50,22 58,38 76,38 61,49 67,67 50,56 33,67 39,49 24,38 42,38" fill="#FFE66D"/>
+  <text x="50" y="86" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SmartKids</text>
+</svg>

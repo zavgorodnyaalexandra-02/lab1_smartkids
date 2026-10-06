@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <rect width="200" height="150" rx="15" fill="#06D6A0"/>
+  <circle cx="160" cy="30" r="25" fill="#FFFFFF" opacity="0.15"/>
+  <circle cx="30" cy="120" r="30" fill="#FFD166" opacity="0.2"/>
+  <text x="100" y="70" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">А Б В</text>
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Читання</text>
+</svg>
